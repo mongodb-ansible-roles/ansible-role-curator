@@ -1,0 +1,6 @@
+---
+- name: Download Curator
+  unarchive:
+    src: '{{ curator_url }}'
+    dest: /usr/local/bin
+    remote_src: true
