@@ -27,7 +27,7 @@ Example Playbook
       roles:
          - role: ansible-role-curator
            vars:
-             curator\_url: ""
+             curator_url: ""
 
 License
 -------
