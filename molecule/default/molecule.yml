@@ -13,6 +13,6 @@ provisioner:
   lint:
     name: ansible-lint
 verifier:
-  name: testinfra
+  name: inspec
   lint:
-    name: flake8
+    name: rubocop
