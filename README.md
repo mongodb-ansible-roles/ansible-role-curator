@@ -1,7 +1,9 @@
-Role Name
-=========
+Ansible role for curator
+==================================
 
-Installs Curator for the build account on images
+Ansible role to install curator
+
+[![CircleCI](https://img.shields.io/circleci/build/github/mongodb-ansible-roles/ansible-role-curator/master?style=flat-square)](https://circleci.com/gh/mongodb-ansible-roles)
 
 Requirements
 ------------
@@ -23,11 +25,13 @@ None
 Example Playbook
 ----------------
 
+```yaml
     - hosts: servers
       roles:
          - role: ansible-role-curator
            vars:
              curator_url: ""
+```
 
 License
 -------
