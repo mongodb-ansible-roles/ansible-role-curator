@@ -1,5 +1,5 @@
 Ansible role for curator
-==================================
+========================
 
 Ansible role to install curator
 
