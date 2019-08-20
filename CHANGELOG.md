@@ -1,3 +1,15 @@
+# [1.1.0](https://github.com/mongodb-ansible-roles/ansible-role-curator/compare/v1.0.0...v1.1.0) (2019-08-20)
+
+
+### Bug Fixes
+
+* testing json schema ([ba830c2](https://github.com/mongodb-ansible-roles/ansible-role-curator/commit/ba830c2))
+
+
+### Features
+
+* new dependencies file ([82ba475](https://github.com/mongodb-ansible-roles/ansible-role-curator/commit/82ba475))
+
 # 1.0.0 (2019-08-16)
 
 
