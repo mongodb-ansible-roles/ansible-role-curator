@@ -4,3 +4,4 @@
     dest: /usr/local/bin
     remote_src: true
     src: "{{ curator_url }}"
+  become: true
