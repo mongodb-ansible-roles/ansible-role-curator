@@ -1,3 +1,11 @@
+## [1.1.1](https://github.com/mongodb-ansible-roles/ansible-role-curator/compare/v1.1.0...v1.1.1) (2019-10-03)
+
+
+### Bug Fixes
+
+* added mongodb context for circleci ([1a1501d](https://github.com/mongodb-ansible-roles/ansible-role-curator/commit/1a1501d))
+* task needs become permissions ([06185e1](https://github.com/mongodb-ansible-roles/ansible-role-curator/commit/06185e1))
+
 # [1.1.0](https://github.com/mongodb-ansible-roles/ansible-role-curator/compare/v1.0.0...v1.1.0) (2019-08-20)
 
 
