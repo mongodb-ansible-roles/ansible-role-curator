@@ -11,3 +11,7 @@ galaxy_info:
     - name: Debian
       versions:
         - buster
+    - name: MacOSX
+      versions:
+        - all
+        - any
