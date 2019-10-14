@@ -1,3 +1,13 @@
 ---
-- include_tasks: setup-Debian.yml
-  when: ansible_os_family == "Debian"
+- name: Make sure bin directory exists
+  file:
+    path: /usr/local/bin
+    state: directory
+  become: true
+
+- name: Download Curator
+  unarchive:
+    dest: /usr/local/bin
+    remote_src: true
+    src: "{{ curator_url }}"
+  become: true
