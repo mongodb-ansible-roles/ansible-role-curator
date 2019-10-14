@@ -1,10 +1,4 @@
 ---
-- name: Make sure bin directory exists
-  file:
-    path: /usr/local/bin
-    state: directory
-  become: true
-
 - name: Download Curator
   unarchive:
     dest: /usr/local/bin
