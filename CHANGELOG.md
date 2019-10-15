@@ -1,3 +1,10 @@
+# [1.2.0](https://github.com/mongodb-ansible-roles/ansible-role-curator/compare/v1.1.1...v1.2.0) (2019-10-15)
+
+
+### Features
+
+* Making task work for all distros ([b6d9b72](https://github.com/mongodb-ansible-roles/ansible-role-curator/commit/b6d9b72f34328540adb8598ef44528039cb47376))
+
 ## [1.1.1](https://github.com/mongodb-ansible-roles/ansible-role-curator/compare/v1.1.0...v1.1.1) (2019-10-03)
 
 
