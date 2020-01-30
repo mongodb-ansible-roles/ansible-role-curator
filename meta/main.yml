@@ -17,6 +17,11 @@ galaxy_info:
         - 6
         - 7
         - 8
+    - name: ubuntu
+      versions:
+        - xenial
+        - bionic
+        - focal
     - name: MacOSX
       versions:
         - all
