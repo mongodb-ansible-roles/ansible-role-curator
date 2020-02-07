@@ -1,3 +1,12 @@
+## [1.2.1](https://github.com/mongodb-ansible-roles/ansible-role-curator/compare/v1.2.0...v1.2.1) (2020-02-07)
+
+
+### Bug Fixes
+
+* Added symlink to /usr/bin ([e4f4001](https://github.com/mongodb-ansible-roles/ansible-role-curator/commit/e4f4001fa40520da40d99f5d6bf61be15499a8c8))
+* Log into Red Hat network ([027cbdc](https://github.com/mongodb-ansible-roles/ansible-role-curator/commit/027cbdc9b01ea3882a80a9215babac0892f699bc))
+* Using ignore_error when checking /usr/bin ([01d9338](https://github.com/mongodb-ansible-roles/ansible-role-curator/commit/01d9338700318aea49cbf926e331c318e2d667a9))
+
 # [1.2.0](https://github.com/mongodb-ansible-roles/ansible-role-curator/compare/v1.1.1...v1.2.0) (2019-10-15)
 
 
