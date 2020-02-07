@@ -6,15 +6,10 @@
     src: "{{ curator_url }}"
   become: true
 
-- name: Check if /usr/bin exists
-  stat:
-    path: /usr/bin
-  register: usr_bin
-
 - name: Link curator binary to common places in PATH
   become: true
   file:
     state: link
     path: /usr/bin/curator
     src: /usr/local/bin/curator
-  when: usr_bin.stat.exists
+  ignore_errors: true
