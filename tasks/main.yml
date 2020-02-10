@@ -1,5 +1,5 @@
 ---
-- name: Download Curator
+- name: Download Curator from {{ curator_url }}
   unarchive:
     dest: /usr/local/bin
     remote_src: true
