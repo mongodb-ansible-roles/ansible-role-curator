@@ -4,6 +4,7 @@
     dest: /usr/local/bin
     remote_src: true
     src: "{{ curator_url }}"
+    creates: /usr/local/bin/curator
   become: true
 
 - name: Link curator binary to common places in PATH
