@@ -1,3 +1,15 @@
+# [1.3.0](https://github.com/mongodb-ansible-roles/ansible-role-curator/compare/v1.2.1...v1.3.0) (2020-02-10)
+
+
+### Bug Fixes
+
+* Make task idempotent ([0e6107c](https://github.com/mongodb-ansible-roles/ansible-role-curator/commit/0e6107cc5857caeee52d6af4506429d18455fd3b))
+
+
+### Features
+
+* Show url of curator install ([2bb2a95](https://github.com/mongodb-ansible-roles/ansible-role-curator/commit/2bb2a95d5f88dcf0986b57071c8c9f66ad6f4a9c))
+
 ## [1.2.1](https://github.com/mongodb-ansible-roles/ansible-role-curator/compare/v1.2.0...v1.2.1) (2020-02-07)
 
 
