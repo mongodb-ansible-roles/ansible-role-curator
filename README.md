@@ -16,7 +16,8 @@ Role Variables
 
 | Name | Description | Type | Default | Required |
 |------|-------------|:----:|:-------:|:--------:|
-| curator\_url | The url for the curator binary | string | `""` | yes |
+| `curator_url` | The url for the curator binary | string | `http://s3.amazonaws.com/boxes.10gen.com/build/curator/curator-dist-{{ architecture }}-{{ curator_sha }}.tar.gz` | no |
+| `curator_sha` | The sha for the curator binary | string | `91427428f676979f96e68db12baff139c7e6ecc0` | yes |
 
 Dependencies
 ------------
@@ -29,7 +30,9 @@ Example Playbook
 ```yaml
     - hosts: servers
       roles:
-         - role: ansible-role-curator
+        - role: ansible-role-curator
+          vars:
+            curator_sha: 91427428f676979f96e68db12baff139c7e6ecc0
 ```
 
 License
