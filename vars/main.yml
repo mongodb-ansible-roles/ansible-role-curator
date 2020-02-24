@@ -5,3 +5,4 @@ architecture_dict:
   ppc64le: power
   aarch64: arm
 architecture: "{{ architecture_dict[ansible_architecture] }}"
+curator_url: http://s3.amazonaws.com/boxes.10gen.com/build/curator/curator-dist-{{ architecture }}-{{ curator_sha }}.tar.gz
