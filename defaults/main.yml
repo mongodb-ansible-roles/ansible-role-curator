@@ -1,2 +1,4 @@
 ---
+curator_dest: /usr/local/bin
 curator_sha: 91427428f676979f96e68db12baff139c7e6ecc0
+curator_bin_path: /usr/bin/curator
