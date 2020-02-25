@@ -1,0 +1,23 @@
+---
+dependency:
+  name: galaxy
+driver:
+  name: delegated
+  hostname: 192.86.32.45
+  username: root
+  user: root
+  identity_file: ~/.ssh/id_rsa
+  instance: rhel80-z-dev.pic.build.10gen.cc
+lint: |
+  set -e
+  yamllint .
+  ansible-lint
+  flake8
+platforms:
+  - name: root@rhel80-z-dev.pic.build.10gen.cc
+    username: root
+    user: root
+provisioner:
+  name: ansible
+verifier:
+  name: testinfra

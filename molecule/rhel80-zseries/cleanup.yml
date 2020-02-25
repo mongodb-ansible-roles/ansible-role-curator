@@ -1,0 +1,6 @@
+---
+- gather_facts: false
+  name: Cleanup
+  hosts: all
+  tasks:
+    - command: pwd

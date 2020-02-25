@@ -1,0 +1,8 @@
+---
+- name: Converge
+  hosts: all
+  roles:
+    - role: ansible-role-curator
+      vars:
+        curator_dest: /tmp/curator_test
+        curator_bin_path: /tmp/curator_test/curator_symlink
