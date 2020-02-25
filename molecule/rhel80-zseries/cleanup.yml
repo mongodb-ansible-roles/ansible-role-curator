@@ -3,4 +3,7 @@
   name: Cleanup
   hosts: all
   tasks:
-    - command: pwd
+    - name: Delete curator test directory
+      file:
+        path: /tmp/curator_test
+        state: absent

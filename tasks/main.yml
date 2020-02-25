@@ -1,16 +1,16 @@
 ---
 - name: Download Curator from {{ curator_url }}
   unarchive:
-    dest: /usr/local/bin
+    dest: "{{ curator_dest }}"
     remote_src: true
     src: "{{ curator_url }}"
-    creates: /usr/local/bin/curator
+    creates: "{{ curator_creates }}"
   become: true
 
 - name: Link curator binary to common places in PATH
   become: true
   file:
     state: link
-    path: /usr/bin/curator
-    src: /usr/local/bin/curator
+    path: "{{ curator_bin_path }}"
+    src: "{{ curator_creates }}"
   ignore_errors: true
