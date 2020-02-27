@@ -10,7 +10,7 @@ lint: |
   ansible-lint
   flake8
 platforms:
-  - name: ${ RHEL80_ZSERIES_DEV }
+  - name: ${RHEL80_ZSERIES_DEV}
 provisioner:
   name: ansible
 verifier:
