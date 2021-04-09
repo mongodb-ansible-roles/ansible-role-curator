@@ -1,3 +1,10 @@
+# [1.5.0](https://github.com/mongodb-ansible-roles/ansible-role-curator/compare/v1.4.0...v1.5.0) (2021-04-09)
+
+
+### Features
+
+* Add arm64 support ([0268835](https://github.com/mongodb-ansible-roles/ansible-role-curator/commit/02688355dfb99a26f3b25af055a1de99d2572005))
+
 # [1.4.0](https://github.com/mongodb-ansible-roles/ansible-role-curator/compare/v1.3.0...v1.4.0) (2020-02-27)
 
 
