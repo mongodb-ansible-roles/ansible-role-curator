@@ -7,3 +7,4 @@
       file:
         path: /tmp/curator_test
         state: directory
+        mode: 0755
