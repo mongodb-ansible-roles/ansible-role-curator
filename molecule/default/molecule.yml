@@ -13,10 +13,10 @@ platforms:
     image: debian:9
   - name: debian10
     image: debian:10
-  - name: rhel8
-    image: registry.redhat.io/ubi8
-  - name: rhel7
-    image: registry.redhat.io/ubi7
+  - name: centos8
+    image: centos:8
+  - name: centos7
+    image: centos:7
   - name: ubuntu1604
     image: ubuntu:16.04
   - name: ubuntu1804
