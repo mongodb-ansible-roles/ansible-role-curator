@@ -6,5 +6,4 @@ architecture_dict:
   aarch64: arm
   arm64: arm
 architecture: "{{ architecture_dict[ansible_architecture] }}"
-curator_url: http://s3.amazonaws.com/boxes.10gen.com/build/curator/curator-dist-{{ architecture }}-{{ curator_sha }}.tar.gz
 curator_creates: "{{ curator_dest }}/curator"
