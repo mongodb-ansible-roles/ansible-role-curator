@@ -1,3 +1,10 @@
+## [1.5.1](https://github.com/mongodb-ansible-roles/ansible-role-curator/compare/v1.5.0...v1.5.1) (2021-04-22)
+
+
+### Bug Fixes
+
+* Move curator_url to defaults ([8f5c6a1](https://github.com/mongodb-ansible-roles/ansible-role-curator/commit/8f5c6a1ea632dd5d04e6a7f72ba912cde2a1c96b))
+
 # [1.5.0](https://github.com/mongodb-ansible-roles/ansible-role-curator/compare/v1.4.0...v1.5.0) (2021-04-09)
 
 
